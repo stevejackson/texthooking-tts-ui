@@ -5,7 +5,7 @@ import TexthookerApp from "~/components/TexthookerApp.jsx";
 
 const RootComponent = () => (
     <React.StrictMode>
-        <TexthookerApp />
+        <TexthookerApp text="test" />
     </React.StrictMode>
 )
 
