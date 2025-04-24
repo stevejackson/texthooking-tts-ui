@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import TexthookerApp from "~/components/TexthookerApp.jsx";
+import TexthookerApp from "~/components/TexthookerApp.tsx";
 
 const RootComponent = () => (
     <React.StrictMode>
-        <TexthookerApp text="test" />
+        <TexthookerApp />
     </React.StrictMode>
 )
 
